@@ -13,35 +13,30 @@ Automate The Boring Stuffs
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g do
+$ npm install -g jake
 $ jake COMMAND
 running command...
 $ jake (-v|--version|version)
 jake/0.0.1 darwin-x64 node-v15.6.0
-$ jake --help [COMMAND]
-USAGE
-  $ jake COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`jake hello`](#jake-hello)
-* [`jake help [COMMAND]`](#jake-help-command)
+* [`jake download`](#jake-hello)
 
-## `jake hello`
+## `jake download`
 
 Describe the command here
 
 ```
 USAGE
-  $ jake hello
+  $ jake download
 
 OPTIONS
-  -n, --name=name  name to print
+  -p, --pretty  Format JSON response
 
 DESCRIPTION
-  ...
-  Extra documentation goes here
+  Download JSON data of treasure locations
 ```
 
